@@ -2,6 +2,17 @@
 
 # graphile-worker
 
+> [!IMPORTANT] > **This is Moveo's fork of
+> [`graphile-worker`](https://github.com/graphile/worker), published as
+> [`@moveo-ai/graphile-worker`](https://www.npmjs.com/package/@moveo-ai/graphile-worker).**
+> It is upstream `v0.17.3` plus the fix for
+> [graphile/worker#621](https://github.com/graphile/worker/issues/621)
+> (`localQueue` breaks the serial execution guarantee for named queues),
+> proposed upstream as
+> [graphile/worker#622](https://github.com/graphile/worker/pull/622). We will
+> retire this fork once the fix lands in an upstream release. Fork releases live
+> on the `moveo` branch; version scheme: `<upstream>-moveo.<n>`.
+
 [![Patreon sponsor button](https://img.shields.io/badge/sponsor-via%20Patreon-orange.svg)](https://patreon.com/benjie)
 [![Discord chat room](https://img.shields.io/discord/489127045289476126.svg)](http://discord.gg/graphile)
 [![Package on npm](https://img.shields.io/npm/v/graphile-worker.svg?style=flat)](https://www.npmjs.com/package/graphile-worker)

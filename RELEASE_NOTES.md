@@ -19,6 +19,16 @@ to make sure the system as a whole remains consistent.
 Read more:
 [Worker Pro Migration](https://worker.graphile.org/docs/pro/migration).
 
+## 0.17.3-moveo.1 (Moveo fork)
+
+Published as `@moveo-ai/graphile-worker`. Identical to upstream `v0.17.3` plus:
+
+- Fix issue where enabling `localQueue` could cause jobs from the same named
+  queue to run concurrently, violating the serial execution guarantee for named
+  queues ([graphile/worker#621](https://github.com/graphile/worker/issues/621),
+  fix proposed upstream as
+  [graphile/worker#622](https://github.com/graphile/worker/pull/622)).
+
 ## v0.17.3
 
 Fixes a bad cast (`::int[]` instead of `::bigint[]`) in `failJobs` resulting in

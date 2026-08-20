@@ -1,8 +1,8 @@
 {
-  "name": "graphile-worker",
-  "version": "0.17.3",
+  "name": "@moveo-ai/graphile-worker",
+  "version": "0.17.3-moveo.1",
   "type": "commonjs",
-  "description": "Job queue for PostgreSQL",
+  "description": "Job queue for PostgreSQL (Moveo fork of graphile-worker 0.17.3 carrying the fix for graphile/worker#621)",
   "main": "dist/index.js",
   "scripts": {
     "build:sql": "node scripts/buildSqlModule.mjs",
@@ -30,7 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/graphile/worker.git"
+    "url": "git+https://github.com/moveo-ai/graphile-worker.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "postgresql",
