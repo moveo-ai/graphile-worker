@@ -2,7 +2,9 @@
 
 # graphile-worker
 
-> [!IMPORTANT] > **This is Moveo's fork of
+> [!IMPORTANT]
+>
+> **This is Moveo's fork of
 > [`graphile-worker`](https://github.com/graphile/worker), published as
 > [`@moveo-ai/graphile-worker`](https://www.npmjs.com/package/@moveo-ai/graphile-worker).**
 > It is upstream `v0.17.3` plus the fix for
